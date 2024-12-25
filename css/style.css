@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5725490196);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 50px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+header .right-content ul {
+  display: flex;
+  gap: 30px;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+header nav ul .home {
+  position: relative;
+}
+header nav ul .home .home-menu {
+  display: block;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.5725490196);
+}
+header nav ul .home .home-menu li {
+  text-transform: capitalize;
+  padding: 10px 30px;
+}
+header nav ul .home:hover .home-menu {
+  display: block;
+}
+header nav ul .destination {
+  position: relative;
+}
+header nav ul .destination .destination-menu {
+  display: block;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.5725490196);
+}
+header nav ul .destination .destination-menu li {
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+header nav ul .destination:hover .destination-menu {
+  display: block;
+}
+header nav ul .blog {
+  position: relative;
+}
+header nav ul .blog .blog-menu {
+  display: block;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.5725490196);
+}
+header nav ul .blog .blog-menu li {
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+header nav ul .blog:hover .blog-menu {
+  display: block;
+}
+header nav ul .pages {
+  position: relative;
+}
+header nav ul .pages .pages-menu {
+  display: block;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.5725490196);
+}
+header nav ul .pages .pages-menu li {
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+header nav ul .pages .pages-menu li:nth-child(3) {
+  text-transform: uppercase;
+}
+header nav ul .pages:hover .pages-menu {
+  display: block;
+}
+header nav ul li {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-block: 30px;
+}
+header nav ul li i {
+  color: #54A15D;
+  margin-left: 10px;
+  transition: 1s;
+}
+header nav ul li:hover i {
+  transform: rotate(360deg);
+}
+header .right-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header .right-content .call {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .right-content .call .fa-phone-volume {
+  font-size: 24px;
+}
+header .right-content .call .details {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .right-content .call .details a {
+  display: block;
+}
+header .right-content button {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  transition: all 0.3s linear;
+  align-content: center;
+}
+header .right-content button:hover {
+  background-color: #54A15D;
+}
+header .right-content button img {
+  height: 15px;
+  aspect-ratio: 1;
+  width: 15px;
+}/*# sourceMappingURL=style.css.map */

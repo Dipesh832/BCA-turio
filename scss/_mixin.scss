@@ -1,0 +1,16 @@
+@mixin d-flex($gap: 50px){
+    display: flex;
+    gap: $gap;
+    align-items: center;
+    
+}
+
+@mixin nav-hover-menu{
+    display: block;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    white-space: nowrap;
+    background-color: #00000092;
+}
